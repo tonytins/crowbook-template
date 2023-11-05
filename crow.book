@@ -1,13 +1,13 @@
-author: Your name
-title: Your title
+author: John Doe
+title: Symbols of the Sea
 lang: en
 
 ## Output formats
 
 # Uncomment and fill to generate files
-output.html: some_file.html
-output.epub: some_file.epub
-# output.pdf: some_file.pdf
+output.html: example.html
+output.epub: example.epub
+# output.pdf: example.pdf
 
 # Or uncomment the following to generate PDF, HTML and EPUB files based on this file's name
 # output: [epub, html]

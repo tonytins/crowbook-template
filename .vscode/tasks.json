@@ -4,9 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build",
+            "label": "Build ePub",
             "type": "shell",
-            "command": "crowbook crow.book"
+            "command": "crowbook crow.book -t epub"
+        },
+        {
+            "label": "Build HTML",
+            "type": "shell",
+            "command": "crowbook crow.book -t html"
         },
         {
             "label": "Build Short Book",
@@ -17,6 +22,11 @@
             "label": "New Config",
             "type": "shell",
             "command": "crowbook crow.book --create chapter_*.md"
+        },
+        {
+            "label": "Stats",
+            "type": "shell",
+            "command": "crowbook --stats crow.book"
         }
     ]
 }
