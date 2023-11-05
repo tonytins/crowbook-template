@@ -1,0 +1,19 @@
+author: Your name
+title: Your title
+lang: en
+
+## Output formats
+
+# Uncomment and fill to generate files
+output.html: some_file.html
+output.epub: some_file.epub
+# output.pdf: some_file.pdf
+
+# Or uncomment the following to generate PDF, HTML and EPUB files based on this file's name
+# output: [epub, html]
+
+# Uncomment and fill to set cover image (for EPUB)
+# cover: some_cover.png
+
+## List of chapters
++ chapter_1.md
