@@ -1,10 +1,12 @@
 # Crowbook Template
 
-Crowbook Template is a simple template designed to help you start writing books using the Crowbook Command Line Interface (CLI).
+Crowbook Template is a simple template designed to help you start writing books using the Crowbook CLI (Command Line Interface).
 
 ## Prerequisites
 
-Crowbook Template requires **Rust** and **Crowbook**. Ensure these are installed on your system before you proceed.
+Before you begin, ensure you have the latest versions of the following installed:
+- [Rust](https://www.rust-lang.org/tools/install)
+- [crowbook](https://crates.io/crates/crowbook)
 
 ## Getting Started
 
